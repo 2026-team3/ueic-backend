@@ -1,0 +1,184 @@
+[
+  {
+    "content": "Primo Publishing has not yet decided () they will introduce their new software's features.",
+    "weakType": "GRAMMAR",
+    "choices": ["which", "who", "what", "when"],
+    "answerIndex": 3
+  },
+  {
+    "content": "() arrives first to the grand opening of Dimkin's Ice Cream Shop will receive a free T-shirt.",
+    "weakType": "GRAMMAR",
+    "choices": ["Who", "What", "Whoever", "That"],
+    "answerIndex": 2
+  },
+  {
+    "content": "We apologize for any inconvenience this ().",
+    "weakType": "GRAMMAR",
+    "choices": ["caused", "should have caused", "cause", "may cause"],
+    "answerIndex": 3
+  },
+  {
+    "content": "Surveyed consumers responded even () to the product's new packaging than expected.",
+    "weakType": "GRAMMAR",
+    "choices": ["more favorable", "more favorably", "favorable", "favorably"],
+    "answerIndex": 1
+  },
+  {
+    "content": "At Beautyvale Cosmetics, our representatives answer customers' () within 24 hours of receipt.",
+    "weakType": "GRAMMAR",
+    "choices": ["inquiries", "inquirers", "inquired", "to inquire"],
+    "answerIndex": 0
+  },
+
+
+
+  {
+    "content": "The manager asked the team to complete the project _____.",
+    "weakType": "VOCABULARY",
+    "choices": ["slowly", "quickly", "carefully", "rarely"],
+    "answerIndex": 1
+  },
+  {
+    "content": "The CEO emphasized the importance of maintaining a _____ network.",
+    "weakType": "VOCABULARY",
+    "choices": ["trustworthy", "fragile", "fast", "expensive"],
+    "answerIndex": 0
+  },
+  {
+    "content": "Employees are encouraged to submit their reports on a _____ basis.",
+    "weakType": "VOCABULARY",
+    "choices": ["mandatory", "urgent", "optional", "frequent"],
+    "answerIndex": 2
+  },
+  {
+    "content": "The conference room was equipped with _____ technology for the presentation.",
+    "weakType": "VOCABULARY",
+    "choices": ["outdated", "advanced", "ordinary", "cheap"],
+    "answerIndex": 1
+  },
+  {
+    "content": "The company announced a _____ closure for renovations next week.",
+    "weakType": "VOCABULARY",
+    "choices": ["permanent", "regular", "unexpected", "brief"],
+    "answerIndex": 3
+  },
+
+
+  {
+    "content": "The word 'function' is closest in meaning to ____.",
+    "weakType": "SYNONYM",
+    "choices": ["gathering", "meeting", "purpose", "celebration"],
+    "answerIndex": 2
+  },
+  {
+    "content": "The word 'assist' is closest in meaning to ____.",
+    "weakType": "SYNONYM",
+    "choices": ["ignore", "help", "oppose", "report"],
+    "answerIndex": 1
+  },
+  {
+    "content": "The word 'reliable' is closest in meaning to ____.",
+    "weakType": "SYNONYM",
+    "choices": ["trustworthy", "fragile", "expensive", "fast"],
+    "answerIndex": 0
+  },
+  {
+    "content": "The word 'mandatory' is closest in meaning to ____.",
+    "weakType": "SYNONYM",
+    "choices": ["optional", "occasional", "frequent", "required"],
+    "answerIndex": 3
+  },
+  {
+    "content": "The word 'brief' is closest in meaning to ____.",
+    "weakType": "SYNONYM",
+    "choices": ["long", "unusual", "complicated", "short"],
+    "answerIndex": 3
+  },
+
+  {
+    "content": "The marketing team announced that the new product launch would be delayed by two weeks due to shipping issues. They assured customers that pre-orders would still be honored. According to the passage, why was the launch delayed?",
+    "weakType": "CONTENT_MATCH",
+    "choices": ["Staff shortage", "Shipping issues", "Marketing problems", "Technical failure"],
+    "answerIndex": 1
+  },
+  {
+    "content": "The office cafeteria will begin serving lunch at 11:30 AM starting next Monday. Breakfast hours remain from 7:00 to 9:00 AM. According to the passage, when can employees have lunch starting next week?",
+    "weakType": "CONTENT_MATCH",
+    "choices": ["7:00–9:00 AM", "11:30 AM onwards", "12:00–2:00 PM", "All day"],
+    "answerIndex": 1
+  },
+  {
+    "content": "All employees are required to submit their weekly reports by Friday noon. Late submissions will affect their performance reviews. According to the passage, what will happen if reports are late?",
+    "weakType": "CONTENT_MATCH",
+    "choices": ["Nothing", "Reports are accepted next week", "Performance review affected", "Employees get a bonus"],
+    "answerIndex": 2
+  },
+  {
+    "content": "During the conference, attendees are expected to wear formal business attire. Casual clothes are not permitted, and badges must be displayed at all times. According to the passage, what are attendees expected to do?",
+    "weakType": "CONTENT_MATCH",
+    "choices": ["Wear casual clothes", "Display badges only", "Wear formal business attire and display badges", "No dress code required"],
+    "answerIndex": 2
+  },
+  {
+    "content": "The library will extend its opening hours to 10:00 PM during the exam period to accommodate students. Staff will also be available for tutoring until 8:00 PM. According to the passage, until what time are staff available for tutoring?",
+    "weakType": "CONTENT_MATCH",
+    "choices": ["8:00 PM", "10:00 PM", "7:00 PM", "9:00 PM"],
+    "answerIndex": 0
+  },
+
+  {
+    "content": "The company announced that the office would be closed for renovations next week. ____ The IT department will continue to provide support remotely. Employees are advised to plan accordingly.",
+    "weakType": "SENTENCE_INSERT",
+    "choices": [
+      "Employees are requested to submit reports on time.",
+      "The renovations will last two days.",
+      "The cafeteria will be closed during this period.",
+      "Staff meetings are canceled."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "content": "All employees must complete the annual safety training by Friday. ____ Failure to do so may result in restricted access to certain areas. Managers will monitor compliance closely.",
+    "weakType": "SENTENCE_INSERT",
+    "choices": [
+      "The training includes both online and in-person sessions.",
+      "Lunch will be provided after the training.",
+      "Employees can take the training anytime next month.",
+      "Safety gear will be issued on Monday."
+    ],
+    "answerIndex": 0
+  },
+  {
+    "content": "The marketing team prepared a new campaign for social media. ____ It aims to increase engagement with younger customers. The campaign will launch on Monday morning.",
+    "weakType": "SENTENCE_INSERT",
+    "choices": [
+      "The team reviewed last month’s performance metrics.",
+      "The campaign uses videos and interactive posts.",
+      "All meetings were postponed.",
+      "The budget has been reduced significantly."
+    ],
+    "answerIndex": 1
+  },
+  {
+    "content": "The library will extend its hours during the exam period. ____ Students can also book private study rooms in advance. The extended hours will continue until the end of the semester.",
+    "weakType": "SENTENCE_INSERT",
+    "choices": [
+      "Library staff will organize a book sale.",
+      "The library will be closed on weekends.",
+      "Study materials will be available online.",
+      "Library services will remain available online."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "content": "Visitors must register at the front desk before entering the building. ____ Security personnel will verify IDs at the entrance. All visitors are required to follow the building rules.",
+    "weakType": "SENTENCE_INSERT",
+    "choices": [
+      "Visitors can skip registration if they are late.",
+      "All deliveries must be made to the loading dock.",
+      "The front desk will provide visitor badges.",
+      "Employees are allowed to enter without badges."
+    ],
+    "answerIndex": 2
+  }
+]

@@ -1,6 +1,7 @@
 package com.team3.ueic.domain.user.entity;
 
 import com.team3.ueic.global.entity.BaseTimeEntity;
+import com.team3.ueic.domain.test.enums.WeakType;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -25,7 +26,7 @@ public class UserProfile extends BaseTimeEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(length = 30)
-    private WeakCategory weakCategory;
+    private WeakType weakType;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
@@ -41,7 +42,7 @@ public class UserProfile extends BaseTimeEntity {
         this.user = user;
     }
 
-    public void updateWeakCategory(WeakCategory weakCategory) {
-        this.weakCategory = weakCategory;
+    public void updateWeakType(WeakType weakType) {
+        this.weakType = weakType;
     }
 }
